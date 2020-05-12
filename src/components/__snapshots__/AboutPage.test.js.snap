@@ -1,0 +1,421 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`About Page Snapshot renders correctly 1`] = `
+<AboutPage>
+       <div>
+         <Carousel
+           className="carousel slide container"
+           controls={true}
+           defaultActiveIndex={0}
+           fade={false}
+           indicators={true}
+           interval={5000}
+           keyboard={true}
+           nextIcon={
+             <span
+               aria-hidden="true"
+               className="carousel-control-next-icon"
+             />
+           }
+           nextLabel="Next"
+           pause="hover"
+           prevIcon={
+             <span
+               aria-hidden="true"
+               className="carousel-control-prev-icon"
+             />
+           }
+           prevLabel="Previous"
+           slide={true}
+           touch={true}
+           wrap={true}
+         >
+           <div
+             className="carousel slide container carousel slide"
+             onKeyDown={[Function]}
+             onMouseOut={[Function]}
+             onMouseOver={[Function]}
+             onTouchEnd={[Function]}
+             onTouchMove={[Function]}
+             onTouchStart={[Function]}
+           >
+             <ol
+               className="carousel-indicators"
+             >
+               <li
+                 className="active"
+                 key="0/.0"
+                 onClick={[Function]}
+               />
+               <li
+                 className={null}
+                 key="1/.1"
+                 onClick={[Function]}
+               />
+               <li
+                 className={null}
+                 key="2/.2"
+                 onClick={[Function]}
+               />
+             </ol>
+             <div
+               className="carousel-inner"
+             >
+               <Transition
+                 addEndListener={[Function]}
+                 appear={false}
+                 enter={true}
+                 exit={true}
+                 in={true}
+                 key=".0"
+                 mountOnEnter={false}
+                 onEnter={[Function]}
+                 onEntered={[Function]}
+                 onEntering={[Function]}
+                 onExit={[Function]}
+                 onExited={[Function]}
+                 onExiting={[Function]}
+                 unmountOnExit={false}
+               >
+                 <CarouselItem
+                   className="active"
+                 >
+                   <div
+                     className="active carousel-item"
+                   >
+                     <img
+                       alt="First slide"
+                       className="d-block w-100"
+                       src="https://picsum.photos/seed/img1/900/350"
+                     />
+                     <CarouselCaption>
+                       <div
+                         className="carousel-caption"
+                       >
+                         <h3>
+                           First slide label
+                         </h3>
+                         <p>
+                           App Feature-1.
+                         </p>
+                       </div>
+                     </CarouselCaption>
+                   </div>
+                 </CarouselItem>
+               </Transition>
+               <Transition
+                 addEndListener={[Function]}
+                 appear={false}
+                 enter={true}
+                 exit={true}
+                 in={false}
+                 key=".1"
+                 mountOnEnter={false}
+                 onEnter={null}
+                 onEntered={null}
+                 onEntering={[Function]}
+                 onExit={[Function]}
+                 onExited={[Function]}
+                 onExiting={[Function]}
+                 unmountOnExit={false}
+               >
+                 <CarouselItem
+                   className=""
+                 >
+                   <div
+                     className="carousel-item"
+                   >
+                     <img
+                       alt="Third slide"
+                       className="d-block w-100"
+                       src="https://picsum.photos/seed/img2/900/350"
+                     />
+                     <CarouselCaption>
+                       <div
+                         className="carousel-caption"
+                       >
+                         <h3>
+                           Second slide label
+                         </h3>
+                         <p>
+                           App Feature-2.
+                         </p>
+                       </div>
+                     </CarouselCaption>
+                   </div>
+                 </CarouselItem>
+               </Transition>
+               <Transition
+                 addEndListener={[Function]}
+                 appear={false}
+                 enter={true}
+                 exit={true}
+                 in={false}
+                 key=".2"
+                 mountOnEnter={false}
+                 onEnter={null}
+                 onEntered={null}
+                 onEntering={[Function]}
+                 onExit={[Function]}
+                 onExited={[Function]}
+                 onExiting={[Function]}
+                 unmountOnExit={false}
+               >
+                 <CarouselItem
+                   className=""
+                 >
+                   <div
+                     className="carousel-item"
+                   >
+                     <img
+                       alt="Third slide"
+                       className="d-block w-100"
+                       src="https://picsum.photos/seed/img3/900/350"
+                     />
+                     <CarouselCaption>
+                       <div
+                         className="carousel-caption"
+                       >
+                         <h3>
+                           Third slide label
+                         </h3>
+                         <p>
+                           App Feature-3.
+                         </p>
+                       </div>
+                     </CarouselCaption>
+                   </div>
+                 </CarouselItem>
+               </Transition>
+             </div>
+             <SafeAnchor
+               className="carousel-control-prev"
+               onClick={[Function]}
+             >
+               <a
+                 className="carousel-control-prev"
+                 href="#"
+                 onClick={[Function]}
+                 onKeyDown={[Function]}
+                 role="button"
+               >
+                 <span
+                   aria-hidden="true"
+                   className="carousel-control-prev-icon"
+                 />
+                 <span
+                   className="sr-only"
+                 >
+                   Previous
+                 </span>
+               </a>
+             </SafeAnchor>
+             <SafeAnchor
+               className="carousel-control-next"
+               onClick={[Function]}
+             >
+               <a
+                 className="carousel-control-next"
+                 href="#"
+                 onClick={[Function]}
+                 onKeyDown={[Function]}
+                 role="button"
+               >
+                 <span
+                   aria-hidden="true"
+                   className="carousel-control-next-icon"
+                 />
+                 <span
+                   className="sr-only"
+                 >
+                   Next
+                 </span>
+               </a>
+             </SafeAnchor>
+           </div>
+         </Carousel>
+         <Container
+           className="mt-4"
+           fluid={false}
+         >
+           <div
+             className="mt-4 container"
+           >
+             <Row
+               noGutters={false}
+             >
+               <div
+                 className="row"
+               >
+                 <Col>
+                   <div
+                     className="col"
+                   >
+                     <Card
+                       body={false}
+                       border="light"
+                       id="about"
+                     >
+                       <div
+                         className="card border-light"
+                         id="about"
+                       >
+                         <h1>
+                           About
+                         </h1>
+                         <p>
+                           Products Inventory is an application made using React.
+                           <br />
+                           The proposed system should have provision to view the list of products and allow only the registered and authenticated users to add, edit, delete the products and view the product detail. The user interface to the system should be implemented using React. The data about the products should be managed in a JSON server. The client application should interface with the JSON Server through http to retrieve and store data. The client application should interface with the JSON Server through http to retrieve and store data client application should interface and store data client application the JSON.
+                           <br />
+                         </p>
+                       </div>
+                     </Card>
+                   </div>
+                 </Col>
+                 <Col
+                   md="auto"
+                 >
+                   <div
+                     className="col-md-auto"
+                   >
+                     <Card
+                       body={false}
+                       border="info"
+                       style={
+                         Object {
+                           "width": "18rem",
+                         }
+                       }
+                     >
+                       <div
+                         className="card border-info"
+                         style={
+                           Object {
+                             "width": "18rem",
+                           }
+                         }
+                       >
+                         <CardBody>
+                           <div
+                             className="card-body"
+                           >
+                             <CardTitle>
+                               <ForwardRef
+                                 className="card-title"
+                               >
+                                 <div
+                                   className="card-title h5"
+                                 >
+                                   Welcome!
+                                 </div>
+                               </ForwardRef>
+                             </CardTitle>
+                             <CardText>
+                               <p
+                                 className="card-text"
+                               >
+                                 Already a User?
+                               </p>
+                             </CardText>
+                             <Button
+                               active={false}
+                               disabled={false}
+                               href="/signIn"
+                               type="button"
+                               variant="primary"
+                             >
+                               <SafeAnchor
+                                 className="btn btn-primary"
+                                 disabled={false}
+                                 href="/signIn"
+                               >
+                                 <a
+                                   className="btn btn-primary"
+                                   href="/signIn"
+                                   onClick={[Function]}
+                                   onKeyDown={[Function]}
+                                 >
+                                   Sign in
+                                 </a>
+                               </SafeAnchor>
+                             </Button>
+                             <CardText>
+                               <p
+                                 className="card-text"
+                               >
+                                 New User?
+                               </p>
+                             </CardText>
+                             <Button
+                               active={false}
+                               disabled={false}
+                               href="/register"
+                               type="button"
+                               variant="primary"
+                             >
+                               <SafeAnchor
+                                 className="btn btn-primary"
+                                 disabled={false}
+                                 href="/register"
+                               >
+                                 <a
+                                   className="btn btn-primary"
+                                   href="/register"
+                                   onClick={[Function]}
+                                   onKeyDown={[Function]}
+                                 >
+                                   Register
+                                 </a>
+                               </SafeAnchor>
+                             </Button>
+                           </div>
+                         </CardBody>
+                       </div>
+                     </Card>
+                   </div>
+                 </Col>
+               </div>
+             </Row>
+           </div>
+         </Container>
+         <footer>
+           <Navbar
+             bg="dark"
+             className="mt-5 mb-0"
+             collapseOnSelect={false}
+             expand="lg"
+             variant="dark"
+           >
+             <nav
+               className="mt-5 mb-0 navbar navbar-expand-lg navbar-dark bg-dark"
+             >
+               <Container
+                 fluid={false}
+               >
+                 <div
+                   className="container"
+                 >
+                   <NavbarBrand
+                     href="#"
+                   >
+                     <a
+                       className="navbar-brand"
+                       href="#"
+                     >
+                       React JS Capstone Project made by
+                       <a
+                         href="https://github.com/swarajlaha"
+                       >
+                         Swaraj Laha
+                       </a>
+                     </a>
+                   </NavbarBrand>
+                 </div>
+               </Container>
+             </nav>
+           </Navbar>
+         </footer>
+       </div>
+     </AboutPage>
+`;
