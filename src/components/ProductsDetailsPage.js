@@ -51,7 +51,7 @@ class ProductsDetailsPage extends React.Component {
                 <footer>
                     <Navbar expand="lg" variant="dark" bg="dark" className="mt-5 mb-0">
                         <Container>
-                            <Navbar.Brand href="#">React JS Capstone Project made by <a href="https://github.com/swarajlaha">Swaraj Laha</a></Navbar.Brand>
+                            <Navbar.Brand href="#">A Project made using React JS by <a href="https://www.linkedin.com/in/swarajlaha/">Swaraj Laha</a></Navbar.Brand>
                         </Container>
                     </Navbar>
                 </footer>

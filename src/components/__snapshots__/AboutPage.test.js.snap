@@ -403,7 +403,7 @@ exports[`About Page Snapshot renders correctly 1`] = `
                        className="navbar-brand"
                        href="#"
                      >
-                       React JS Capstone Project made by
+                       React JS Project made by
                        <a
                          href="https://github.com/swarajlaha"
                        >
