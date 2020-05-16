@@ -17,8 +17,8 @@ class ProductsDetailsPage extends React.Component {
             product: ""
         }
         if(UserStore.getCurrentUser() == undefined) {
-            alert("User not signed in.")
-            props.history.push('/viewProducts')
+            alert("You're not signed in! Sign in?")
+            props.history.push('/signIn')
         }
     }
 
