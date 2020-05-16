@@ -7,6 +7,7 @@ import Card from 'react-bootstrap/Card'
 import Button from 'react-bootstrap/Button'
 import Header from '../includes/header'
 import Navbar from 'react-bootstrap/Navbar'
+import TopViewedProductsPage from './TopViewedProductsPage'
 
 const AboutPage = () => {
     return(
@@ -86,6 +87,7 @@ const AboutPage = () => {
                     </Col>
                 </Row>
             </Container>
+            <TopViewedProductsPage />
             <footer>
             <Navbar expand="lg" variant="dark" bg="dark" className="mt-5 mb-0">
                 <Container>
