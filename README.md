@@ -3,6 +3,12 @@ A product inventory application made using React JS and JSON server, with featur
 
 **PRODUCTS INVENTORY**
 
+**Screenshots:**
+
+![AboutPage](https://user-images.githubusercontent.com/26769575/82124949-3829cd00-97c0-11ea-8aef-7f9259b14b2d.JPG)
+
+![ViewProductsPage](https://user-images.githubusercontent.com/26769575/82124962-54c60500-97c0-11ea-880b-63a67da7d736.JPG)
+
 **Features:**
 
 1. Responsive User Interface
