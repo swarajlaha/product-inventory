@@ -40,29 +40,28 @@ export default class TopViewedProductsPage extends React.Component {
     render() {
         return (
             <div>
-                <Header />
-                    <Container className="mt-5">
-                        <Row>
-                            <Col md={{ span: 6, offset: 3 }}>
-                                <Card body>
-                                    <Bar
-                                        data={this.state.data}
-                                        options={{
-                                          title:{
-                                            display:true,
-                                            text:'Top Viewed Products',
-                                            fontSize:20
-                                          },
-                                          legend:{
-                                            display:true,
-                                            position:'right'
-                                          }
-                                        }}
-                                    />
-                                </Card>
-                            </Col>
-                        </Row>
-                    </Container>
+                <Container className="mt-5">
+                    <Row>
+                        <Col md={{ span: 6, offset: 3 }}>
+                            <Card body>
+                                <Bar
+                                    data={this.state.data}
+                                    options={{
+                                      title:{
+                                        display:true,
+                                        text:'Top Viewed Products',
+                                        fontSize:20
+                                      },
+                                      legend:{
+                                        display:true,
+                                        position:'right'
+                                      }
+                                    }}
+                                />
+                            </Card>
+                        </Col>
+                    </Row>
+                </Container>
                 <Footer />
             </div>
         );
